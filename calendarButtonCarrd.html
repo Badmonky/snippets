@@ -1,0 +1,42 @@
+<!-- Credit where its due, I used this AMAZING code. pretty much ready to go. -->
+<!-- I just added it all here for copy-paste ability into a carrd.co embed -->
+<!-- https://github.com/add2cal/add-to-calendar-button -->
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css"
+/>
+<body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1"
+    async
+    defer
+  ></script>
+
+  <div class="atcb" style="display: none">
+    { 
+      "name":"Name of the Event",
+      "description":"Reminder to do some cool stuff!",
+      "startDate":"2023-01-1",
+      "endDate":"2023-01-1",
+      "startTime":"00:01",
+      "endTime":"01:00",
+      "location":"https://link.toyour.project",
+      "label":"Set Reminder",
+      "options":[
+        "Apple",
+        "Google",
+        "iCal",
+        "Microsoft365",
+        "MicrosoftTeams",
+        "Outlook.com",
+        "Yahoo"
+      ],
+      "timeZone":"America/Denver",
+      "trigger":"click",
+      "inline":true,
+      "listStyle":"modal",
+      "iCalFileName":"Reminder-Event" 
+    }
+  </div>
+</body>
